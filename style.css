@@ -3,6 +3,10 @@ body {
 }
 
 /* Chart Styling */
+table {
+  width: 99%;
+}
+
 .chart-title {
   color: black;
   background-color: #e7dac4;
@@ -225,6 +229,7 @@ hr {
 .switch-toggle input:checked + label {
  background: #e7dac4;
  font-weight: 700;
+ border-radius: 16px;
 }
 
 label:hover {
@@ -478,5 +483,10 @@ input:checked + label:hover {
   .popup .close {
     top: -8px;
   }
+
+  /* Image and model size info toggle button */
+  .switch-toggle input:checked + label {
+    border-radius: 11px;
+   }
 
 }
