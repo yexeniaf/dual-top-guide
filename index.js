@@ -37,7 +37,6 @@ for (var i = 0; i < oldRow.length; i++) {
 });
 
 // Function for Image Guide Toggle Button //
-
 function imageExtraSmall() {
   document.getElementById("model-image").src = "https://cdn.shopify.com/s/files/1/0382/1223/9492/files/MeasuringGuide-04.jpg?v=1658957156";
   document.getElementById("xs-info").style.display = "block";
